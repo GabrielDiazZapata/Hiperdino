@@ -1,8 +1,3 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
 # Ejercicio de simulación de cajero automático
 
 Este es un programa Java que simula el funcionamiento de un cajero automático, permitiendo la apertura y cierre de una caja, el añadir clientes a una fila, el procesamiento de la fila de clientes y la visualización de los clientes pendientes en la fila.
