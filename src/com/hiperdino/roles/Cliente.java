@@ -6,7 +6,7 @@ public class Cliente {
 
     public Cliente() {
         this.nombre = Utils.generadorNombres();
-        this.numProductos = 1 + Utils.rand.nextInt(20); // número aleatorio de productos entre 1 y 20
+        this.numProductos = 1 + Utils.rand.nextInt(20); 
         this.cesta = new ArrayList<>();
         for (int i = 0; i < this.numProductos; i++) {
             String producto = Utils.generadorProductos();
