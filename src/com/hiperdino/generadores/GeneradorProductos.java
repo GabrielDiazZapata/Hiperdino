@@ -1,10 +1,10 @@
-package com.hiperdino.generadores;
+package generadores;
 import java.util.Random;
 public class GeneradorProductos {
-    private static String[] productos = {"Leche", "Huevos", "Pan", "Azúcar", "Sal", "Aceite", "Café", "Té", "Arroz", "Pasta", "Carne", "Pescado"};
+    public static final Random rand = new Random();
     
     public static String generadorProductos(){
-        Random rand = new Random();
+        String[] productos = {"Leche", "Huevos", "Pan", "Azúcar", "Sal", "Aceite", "Café", "Té", "Arroz", "Pasta", "Carne", "Pescado"};
         return productos[rand.nextInt(productos.length)];
     }
 }

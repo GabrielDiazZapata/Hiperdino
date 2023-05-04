@@ -1,4 +1,4 @@
-package com.hiperdino.roles;
+package roles;
 import java.util.ArrayList;
 
 public class Cesta {

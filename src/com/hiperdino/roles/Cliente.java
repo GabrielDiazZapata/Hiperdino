@@ -1,16 +1,18 @@
-package com.hiperdino.roles;
+package roles;
 import java.util.ArrayList;
+import generadores.GeneradorNombres;
+import generadores.GeneradorProductos;
 public class Cliente {
     private String nombre;
     private int numProductos;
     private ArrayList<String> cesta;
 
     public Cliente() {
-        this.nombre = Utils.generadorNombres();
-        this.numProductos = 1 + Utils.rand.nextInt(20); 
+        this.nombre = GeneradorNombres.generadorNombres();
+        this.numProductos = 1 + GeneradorNombres.rand.nextInt(20); 
         this.cesta = new ArrayList<>();
         for (int i = 0; i < this.numProductos; i++) {
-            String producto = Utils.generadorProductos();
+            String producto = GeneradorProductos.generadorProductos();
             this.cesta.add(producto);
         }
     }
