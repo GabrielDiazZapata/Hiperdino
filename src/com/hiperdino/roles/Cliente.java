@@ -1,3 +1,4 @@
+package com.hiperdino.roles;
 import java.util.ArrayList;
 public class Cliente {
     private String nombre;
